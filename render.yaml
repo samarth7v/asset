@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: assetflow
+    runtime: python
+    plan: free
+    buildCommand: echo "No build step"
+    startCommand: python server.py
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: HOST
+        value: 0.0.0.0
