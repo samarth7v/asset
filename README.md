@@ -16,7 +16,9 @@ AssetFlow is an operational control plane for physical assets and shared resourc
 
 ## Demo
 
-**Live:** Deploy to [Render](https://render.com) using the included `render.yaml`, or run locally below.
+**Live (demo session):** [https://forty-times-fail.loca.lt](https://forty-times-fail.loca.lt) — requires the local server and tunnel to be running.
+
+**Persistent deploy:** Push to GitHub and deploy on [Render](https://render.com) using the included `render.yaml` (free tier).
 
 **Run locally:**
 
