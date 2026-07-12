@@ -1,14 +1,10 @@
-# AssetFlow demo tunnel — run before presenting
+# AssetFlow demo — run before presenting
 
 ```powershell
-# Terminal 1: start the app
 python server.py
-
-# Terminal 2: expose to judges (URL changes each session)
-npx localtunnel --port 4173
 ```
 
-Copy the `your url is:` link into README before submission.
+Open [http://127.0.0.1:4173](http://127.0.0.1:4173).
 
 ## 3-minute demo checklist
 

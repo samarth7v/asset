@@ -16,12 +16,6 @@ AssetFlow is an operational control plane for physical assets and shared resourc
 
 ## Demo
 
-**Live (demo session):** [https://forty-times-fail.loca.lt](https://forty-times-fail.loca.lt) — requires the local server and tunnel to be running.
-
-**Persistent deploy:** Push to GitHub and deploy on [Render](https://render.com) using the included `render.yaml` (free tier).
-
-**Run locally:**
-
 ```powershell
 python server.py
 ```
@@ -52,7 +46,7 @@ python server.py
 | Frontend | Vanilla JavaScript, HTML5, CSS |
 | Backend | Python 3 stdlib (`http.server`, `sqlite3`) |
 | Database | SQLite (`assetflow.db`, auto-created) |
-| Deploy | Render (`render.yaml`) or any host running `python server.py` |
+| Deploy | Run locally with `python server.py` |
 
 Zero build step. Full persistence. REST API at `/api/*`.
 
